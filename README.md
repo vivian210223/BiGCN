@@ -16,7 +16,7 @@ python ./Process/getPhemegraph.py twitter_16
 # Reproduce the experimental results.
 python ./model/Pheme/BiGCN_Pheme.py "datasetname" "iteration time"<br/>
 ```
-python ./model/Twitter/BiGCN_Twitter.py pheme 15
-python ./model/Twitter/BiGCN_Twitter.py twitter_15 15
-python ./model/Twitter/BiGCN_Twitter.py twitter_16 15
+python ./model/Pheme/BiGCN_Pheme.py pheme 15
+python ./model/Pheme/BiGCN_Pheme.py twitter_15 15
+python ./model/Pheme/BiGCN_Pheme.py twitter_16 15
 ```
